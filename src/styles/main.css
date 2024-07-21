@@ -1,0 +1,25 @@
+
+body, html{
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-track{
+  background-color: #bb00ff54;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+:root{
+  --header-bg-color: #d6c2f6;
+  --chat-bg-color: #e1b5eb5a;
+  --chat-users-color: #e1b5eb5a;
+  --chat-content-color:  #e1b5eb;
+  --footer-bg-color:  #a1b7ed91;
+}
